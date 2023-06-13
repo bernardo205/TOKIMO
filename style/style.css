@@ -1,0 +1,230 @@
+/* cores */
+:root{
+    --first-color: #303030;
+    --second-color: #0f0f0f;
+    --tird-color: #fff;
+}
+/* cor do corpo */
+body{
+    background-color: var(--second-color);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/* barra de cima */
+.cima {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: var(--first-color);
+}
+/* barra de lado */
+.lado{
+    position: fixed;
+    height: 100%;
+    width: 199px;
+    top: 0px;
+    left: 0px;
+    background-color: var(--first-color);
+    overflow: scroll; /*scrool daa barra lateral*/
+}
+/* retirar o scrool */
+.lado::-webkit-scrollbar{
+    display: none;
+}
+/* logo do site */
+.logo_site{
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+/* barra de pesquisa */
+.input { 
+    position: absolute;
+    left: 300px;
+    color: var(--tird-color);
+    border: 2px solid var(--tird-color);
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    width: 500px;
+    max-width: 1050px;
+}   
+.input:active {
+    box-shadow:inset 2px 2px 15px #fff;
+}
+/* botao para ir a pagina de publicar */
+.publicar{
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    position: absolute;
+    left: 1400px;
+    
+}
+/* botao para ir para o perfil do utilizador */
+.perfil{
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    position: absolute;
+    left: 1500px;
+}
+/* botoes funcinalidades */
+.container{
+    background-color: var(--first-color);
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    margin-top: 50px;
+}
+.btn{
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: #fff;
+    transition: background-color 1s;
+}
+.btn:hover {
+    background-color: #004369;
+}
+.btn1{
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #fff;
+}
+.btn2{
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    background-color: #fff;
+}.btn3{
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background-color: #fff;
+}
+.btn4{
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    background-color: #fff;
+}
+/* comunidades */
+.container2{
+    background-color: var(--first-color);
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    top: 540px;
+    left: 25px;
+}
+h3{
+    margin-left: 15px;
+}
+.btn_comu{
+    position: absolute;
+    top: 50px;
+}
+.btn_comu1{
+    position: absolute;
+    top: 80px;
+}
+.btn_comu2{
+    position: absolute;
+    top: 110px;
+}
+.btn_comu3{
+    position: absolute;
+    top: 140px;
+}
+
+/* publicacao */
+.post{
+    border: 1px solid var(--tird-color);
+    width: 1150px;
+    height: 535px;
+    margin-top: 130px;
+    margin-left: 300px;
+    margin-right: 82px;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 1100px;
+    margin: auto;
+}
+img {
+    max-width: 1100px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+.acoes_post{
+    display: flex;
+}
+p{
+    color: #fff;;
+    margin-top: 95px;
+    margin-left: 15px;
+}
+.imag_perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+    background-color: #000;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.botoes_post{
+    margin-left: 650px;
+    margin-top: 15px;
+}
+.like{
+    width: 50px;
+    height: 20px;
+}
+.comentar{
+    width: 50px;
+    height: 20px;
+}
+.compartihar{
+    width: 50px;
+    height: 20px;
+}
+.salvar{
+    width: 50px;
+    height: 20px;
+}
+
