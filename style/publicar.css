@@ -14,6 +14,9 @@ main{
     top: 15%;
     left: 35%;
 }
+.pub{
+    color: rgb(255,165,0);
+}
 .ficheiro{
     width: 360px;
     height: 200px;
