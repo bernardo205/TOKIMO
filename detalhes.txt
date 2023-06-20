@@ -1,0 +1,6 @@
+integrantes:
+Bernardo
+Tomas Ribeiro
+
+link para o netfly: https://tokimottk.netlify.app/login.html
+link para o github: https://github.com/bernardo205/TOKIMO
