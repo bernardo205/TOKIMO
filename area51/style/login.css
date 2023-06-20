@@ -6,7 +6,6 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-
 .center{
     position: absolute;
     top: 50%;
@@ -16,73 +15,16 @@ body{
     background: red;
     border-radius: 20px;
 }
-
 .center h1{
     text-align: center;
     padding: 0 0 20px 0;
     border-bottom: 1px solid silver;
 }
-
 .login {
     margin-left: 150px;
     margin-bottom: 10px;
 }
 
-button {
-    --color: #00A97F;
-    --color2: rgb(10, 25, 30);
-    padding: 0.8em 1.75em;
-    background-color: transparent;
-    border-radius: 6px;
-    border: .3px solid var(--color);
-    transition: .5s;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    z-index: 1;
-    font-weight: 300;
-    font-size: 17px;
-    font-family: 'Roboto', 'Segoe UI', sans-serif;
-    text-transform: uppercase;
-    color: var(--color);
-   }
-   
-   button::after, button::before {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    transform: skew(90deg) translate(-50%, -50%);
-    position: absolute;
-    inset: 50%;
-    left: 25%;
-    z-index: -1;
-    transition: .5s ease-out;
-    background-color: var(--color);
-   }
-   
-   button::before {
-    top: -50%;
-    left: -25%;
-    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-   }
-   
-   button:hover::before {
-    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-   }
-   
-   button:hover::after {
-    transform: skew(45deg) translate(-50%, -50%);
-   }
-   
-   button:hover {
-    color: var(--color2);
-   }
-   
-   button:active {
-    filter: brightness(.7);
-    transform: scale(.98);
-   }
 .signup_link{
     margin-left: 30px;
 }
@@ -91,7 +33,6 @@ from .txt_field{
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
 }
-
 .txt_field input{
     width: 100%;
     padding: 0 5px;
@@ -100,17 +41,14 @@ from .txt_field{
     border: none;
     background: none;
 }
-
 .pass{
     margin: 10px 0px 20px 5px;
     color: #8e44ad;
     cursor: pointer;
 }
-
 .pass:hover{
     text-decoration: underline;
 } 
-
 input[type="submit"]{
     width: 100%;
     height: 50px;
