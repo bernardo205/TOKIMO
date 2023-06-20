@@ -11,6 +11,9 @@ body {
     background-size: cover;
     background-position: center;
 }
+.log_text{
+    color: rgb(255,165,0);
+}
 
 .center{
     position: absolute;
