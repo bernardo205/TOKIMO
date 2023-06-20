@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../image/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+h1{
+  color: var(--tird-color);
+  margin-top: 15px;
+}
+.registo{
+    background-color: var(--first-color);
+    width: 300px;
+    height: 350px;
+    margin-left: 35%;
+    margin-top: 100px;
+}
+
+  .registo h1 {
+    text-align: center;
+  }
+
+  .registo input[type="text"],
+  .registo input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 1px solid var(--tird-color);
+    border-radius: 5px;
+    background-color: var(--second-color); ;
+  }
+.registo_btn{
+  margin: 20px 20%;
+}
+.signup_link{
+  color : var(--tird-color);
+  margin: 0px 20%;
+}
+.login{
+  color: var(--tird-color);
+  border: 1px solid var(--tird-color);
+  padding: 2px;
+}

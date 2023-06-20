@@ -1,0 +1,59 @@
+:root{
+    --first-color: #1a1a1a;
+    --second-color: #2f2f2f;
+    --tird-color: rgb(255,165,0);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../image/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background: var(--first-color);
+    border-radius: 20px;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid var(--tird-color);
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 1px solid var(--tird-color);
+    border-radius: 5px;
+    background-color: var(--second-color); ;
+}
+.log_btn{
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+.registo{
+    color: var(--tird-color);
+    border: 1px solid var(--tird-color);
+    padding: 2px;
+}
+.signup_link{
+    color: var(--tird-color);
+}

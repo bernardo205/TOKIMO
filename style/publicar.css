@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../image/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+main{
+    width: 400px;
+    height: 550px;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+.ficheiro{
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #2f2f2f;
+    margin: 10px 20px ;
+}
+.link{
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #2f2f2f;
+    margin: 15px 20px ;
+}
+.descricao{
+    width: 360px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+input[type="file"] {
+    display: none;
+}  
+.ficheiro_arquivo {
+    position: relative;
+    top: 90px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 200px;
+    background-color: #333;
+    color: rgb(255,165,0);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="url"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    background-color: #2f2f2f;
+    color: rgb(255,165,0);
+
+}
+.url {
+    position: absolute;
+    top: 380px;
+    left: 190px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #333;
+    color: rgb(255,165,0);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="text"]{
+    width: 360px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: rgb(255,165,0);
+    background-color: #2f2f2f;
+    color: rgb(255,165,0);
+}
+.shadow__btn {
+    padding: 5px 10px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    position: absolute;
+    top: 510px;
+    left: 120px;
+}
+
+.shadow__btn {
+    background: rgb(255,165,0);
+    box-shadow: 0 0 25px rgb(255,165,0);
+}
+
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255,165,0),
+                0 0 25px rgb(255,165,0),
+                0 0 50px rgb(255,165,0),
+                0 0 100px rgb(255,165,0);
+}
